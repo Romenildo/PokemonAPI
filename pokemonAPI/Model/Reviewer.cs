@@ -6,6 +6,8 @@
         public string FirstName { get; set; }
         public string LastName { get; set; }
 
+        //ont to many
+        //um reviewr pode ter varias reviews
         public ICollection<Review> Reviews { get; set;}
     }
 }

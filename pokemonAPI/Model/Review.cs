@@ -6,7 +6,10 @@
         public string Title { get; set; }
         public string Text { get; set; }
 
+        //One to one
+        //Uma review tem um Reviewr
         public Reviewer Reviewer { get; set; }
+        //uma review é para um pokemon
         public Pokemon Pokemon { get; set; }
     }
 }
