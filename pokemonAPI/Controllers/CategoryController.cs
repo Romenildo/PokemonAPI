@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using pokemonAPI.Dtos;
 using pokemonAPI.Interfaces;
 using pokemonAPI.Model;
+using pokemonAPI.Repository;
 
 namespace pokemonAPI.Controllers
 {
@@ -54,11 +55,12 @@ namespace pokemonAPI.Controllers
         }
 
         [HttpGet("pokemon/{categoryId}")]
-        [ProducesResponseType(200, Type = typeof(IEnumerable<Category>))]
+        [ProducesResponseType(200, Type = typeof(IEnumerable<Pokemon>))]
         [ProducesResponseType(400)]
-        public IActionResult GetPokemonByCategoryID (int categoryId) 
+        public IActionResult GetPokemonByCategoryId (int categoryId) 
         {
-            var pokemons = _mapper.Map<CategoryDto>(_repository.GetPokemonByCategory(categoryId));
+            var pokemons = _mapper.Map<List<PokemonDto>>(_repository.GetPokemonByCategory(categoryId));
+
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
