@@ -15,7 +15,7 @@
         //Um pokemon pode ter varios donos e os donos podem ter varios pokemons
         public ICollection<PokemonOwner> PokemonOwners { get; set; }
         //Um pokemon pode ter varias categorias, e uma categoria tem varios pokemons
-        public ICollection<PokemonCategory> pokemonCategories { get; set; }
+        public ICollection<PokemonCategory> PokemonCategories { get; set; }
 
 
 

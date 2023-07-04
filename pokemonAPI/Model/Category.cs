@@ -7,6 +7,6 @@
 
         //many to many
         //Uma categoria pode ter varios pokemons
-        public ICollection<PokemonCategory> pokemonCategories { get; set; }
+        public ICollection<PokemonCategory> PokemonCategories { get; set; }
     }
 }
