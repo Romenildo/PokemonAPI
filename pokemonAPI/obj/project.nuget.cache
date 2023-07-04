@@ -1,14 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "4PvmIHSgAJShy1c6ZGFojSnPoIwKkMyNnx6M365Alwia0oq26ppO1qoGuFbyRjzMlXFTjIG6HY1UGZF+DJ39jQ==",
+  "dgSpecHash": "MmL9muyPnkdfNhUGqQDJM+vmAi7UU4Qb7zXbg5xgXFpLX4pKfmS1W562LmLyxbmVsiBRNjB5glIqKEU2g+Ai2A==",
   "success": true,
   "projectFilePath": "C:\\Users\\KtrSi\\OneDrive\\Área de Trabalho\\pokemonAPI\\pokemonAPI\\pokemonAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\KtrSi\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\KtrSi\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\KtrSi\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\KtrSi\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\KtrSi\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\KtrSi\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
-    "C:\\Users\\KtrSi\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\KtrSi\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\KtrSi\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.2\\microsoft.data.sqlclient.5.0.2.nupkg.sha512",
     "C:\\Users\\KtrSi\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\5.0.1\\microsoft.data.sqlclient.sni.runtime.5.0.1.nupkg.sha512",
     "C:\\Users\\KtrSi\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.8\\microsoft.entityframeworkcore.7.0.8.nupkg.sha512",

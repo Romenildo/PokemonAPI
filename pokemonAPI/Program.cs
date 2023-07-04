@@ -13,6 +13,9 @@ builder.Services.AddControllers();
 //desnecessario é so para injetar os dados iniciais no banco de dados
 builder.Services.AddTransient<Seed>();
 
+//Automapper é necessario isntalar a dependencia de injeção de dependencia no nugget do automapper
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
 //Injeções de dependencias das interfaces dos repositorios
 builder.Services.AddScoped<IPokemonRepository, PokemonRepository>();
 

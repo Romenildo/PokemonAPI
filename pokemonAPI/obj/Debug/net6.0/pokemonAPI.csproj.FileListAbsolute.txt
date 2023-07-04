@@ -85,3 +85,5 @@ C:\Users\KtrSi\OneDrive\Área de Trabalho\pokemonAPI\pokemonAPI\obj\Debug\net6.0
 C:\Users\KtrSi\OneDrive\Área de Trabalho\pokemonAPI\pokemonAPI\obj\Debug\net6.0\pokemonAPI.pdb
 C:\Users\KtrSi\OneDrive\Área de Trabalho\pokemonAPI\pokemonAPI\obj\Debug\net6.0\pokemonAPI.genruntimeconfig.cache
 C:\Users\KtrSi\OneDrive\Área de Trabalho\pokemonAPI\pokemonAPI\obj\Debug\net6.0\ref\pokemonAPI.dll
+C:\Users\KtrSi\OneDrive\Área de Trabalho\pokemonAPI\pokemonAPI\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\KtrSi\OneDrive\Área de Trabalho\pokemonAPI\pokemonAPI\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
