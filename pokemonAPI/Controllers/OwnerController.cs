@@ -21,7 +21,7 @@ namespace pokemonAPI.Controllers
 
         [HttpGet]
         [ProducesResponseType(200, Type = typeof(IEnumerable<Owner>))]
-        public IActionResult GetOwnerss()
+        public IActionResult GetOwners()
         {
             var owners = _mapper.Map<List<OwnerDto>>(_repository.GetOwners());
 
