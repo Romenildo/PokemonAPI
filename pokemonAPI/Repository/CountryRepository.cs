@@ -5,7 +5,7 @@ using pokemonAPI.Model;
 
 namespace pokemonAPI.Repository
 {
-    public class CountryRepository : iCountryRepository
+    public class CountryRepository : ICountryRepository
     {
 
         private readonly DataContext _context;

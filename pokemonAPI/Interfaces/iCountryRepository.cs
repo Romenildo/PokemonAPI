@@ -2,7 +2,7 @@
 
 namespace pokemonAPI.Interfaces
 {
-    public interface iCountryRepository
+    public interface ICountryRepository
     {
         ICollection<Country> GetCountries();
         Country GetCountry(int id);

@@ -11,9 +11,9 @@ namespace pokemonAPI.Controllers
     public class CountryController: Controller
     {
 
-        private readonly iCountryRepository _repository;
+        private readonly ICountryRepository _repository;
         private readonly IMapper _mapper;
-        public CountryController(iCountryRepository countryRepository, IMapper mapper)
+        public CountryController(ICountryRepository countryRepository, IMapper mapper)
         {
             _repository = countryRepository;
             _mapper = mapper;
