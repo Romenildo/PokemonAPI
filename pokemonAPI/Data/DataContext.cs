@@ -32,7 +32,7 @@ namespace pokemonAPI.Data
         public DbSet<PokemonOwner> PokemonOwners { get; set; }
 
         public DbSet<Review> Reviews { get; set; }
-        public DbSet<Reviewer> reviewers { get; set; }
+        public DbSet<Reviewer> Reviewers { get; set; }
 
         /*
             Reescrever a função da ORM no momento que for mapear seguir os detalhes definitos na função
