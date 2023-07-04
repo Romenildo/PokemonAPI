@@ -79,6 +79,11 @@ namespace pokemonAPI.Data
         ou no prompt: dotnet ef migrations add InitialMigration --- dentro da pasta do projeto
 
         para desfazer: dotnet ef migrations remove
+
+
+        E Finalmente para criar o banco de dados
+        PM> Update-Database
+        ou no prompt: dotnet ef database update
         +
          */
     }

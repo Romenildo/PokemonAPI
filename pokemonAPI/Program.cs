@@ -1,6 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using pokemonAPI;
 using pokemonAPI.Data;
+using pokemonAPI.Interfaces;
+using pokemonAPI.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +12,9 @@ builder.Services.AddControllers();
 
 //desnecessario é so para injetar os dados iniciais no banco de dados
 builder.Services.AddTransient<Seed>();
+
+//Injeções de dependencias das interfaces dos repositorios
+builder.Services.AddScoped<IPokemonRepository, PokemonRepository>();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
